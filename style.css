@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,  sans-serif;
+
+}
+header{
+    background-color: #b8c4cf;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero{
+    background:url('banner . jpg') no repeat center center/cover;
+    /* color: white; */
+    text-align: center;
+    padding: 100px 2px;
+}
+.hero h2{
+    font-size: 36px;
+}
+.hero p{
+    font-size : 18 px;
+    margin: 10px 0;
+}
+.btn{
+    display: inline-block;
+    background-color: #ecbf0c;
+    color: black;
+    padding: 10px 20ox;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.about h2, .notices h2, .gallery h2{
+    text-align: center;
+    padding: 50px 20px;
+
+}
+.about p{
+    padding: 2px;
+    margin: 2px;
+}
+.about h2, .notice h2, .gallery h2{
+    color: rgb(230, 51, 81);
+    margin-bottom: 10px;
+
+}
+.notice ul{
+    list-style: none;
+    padding: 10px;
+
+}
+.notice ul li{
+    font-size: 18px;
+    margin: 5px 0;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.image img{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+footer{
+    background-color:#e01f1f ;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,  sans-serif;
+
+}
+header{
+    background-color: #b8c4cf;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.admission{
+    text-align: center;
+    padding: 25px 20px;
+}
+.admission h2, .admission h3{
+    color: #111314;
+    margin-bottom: 20px;
+}
+.admission p{
+ font-size: 18px;
+ margin: 10px 0;
+}
+.admission ul{
+    list-style: none;
+    padding: 10px;
+}
+.admission ul li{
+    font-size: 18px;
+    margin: 5px 0;
+}
+.admission table{
+    width:80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.admission table,th, td{
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    background-color:#e01f1f ;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

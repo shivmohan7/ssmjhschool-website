@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,  sans-serif;
+
+}
+header{
+    background-color: #b8c4cf;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.academic{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+}
+.academic h2{
+    color: #004080;
+    margin-bottom: 20px;
+    font-size: 24px;
+
+}
+.academic h3{
+    color: #0066cc;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.academic p{
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+.academic ul{
+    list-style: none;
+    padding: 0;
+
+}
+.academic ul li{
+    font-size: 18px;
+    margin: 5px 0;
+    background-color: #e6f2ff;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.academic ul li strong{
+    color: #004080;
+}
+footer{
+    background-color:#e01f1f ;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+
+
